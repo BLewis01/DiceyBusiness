@@ -1,0 +1,61 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.die{
+    display: flex;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: purple;
+    text-align: center;
+}
+
+
+.main{
+    background-color: aqua;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 180px;
+    
+}
+
+p{
+    border: 20px solid black;
+    padding: 30px
+    
+}
+#mybtn1{
+    color: purple;
+    background-color: lawngreen;
+}
+
+#mybtn2{
+    color: lawngreen;
+    background-color: purple;
+}
+
+#mybtn3{
+    color: purple;
+    background-color: lawngreen;
+}
+
+.board{
+    display: flex;
+}
